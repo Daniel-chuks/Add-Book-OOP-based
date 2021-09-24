@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading{
+  margin: 20px auto;
+}
+
+.heading h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.heading h2 span{
+  color: cyan;
+}
+
+.formControl{
+  margin: 0 20px;
+  padding: 5px 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.formContainer{
+ margin: 20px auto;
+}
+
+.formContainer label, input{
+  display: block;
+  margin: 2px;
+}
+
+.formContainer input{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 10px;
+  padding: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.formContainer label{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.formControl #submitButton{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #3EBF45;
+  color: #fff;
+  background: #3BE244;
+}
+
+.storedBookInfo{
+  margin: 20px auto;
+  width: 90%;
+  padding: 5px 20px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.storedBookInfo .info{
+  display: block;
+  margin: 5px auto;
+}
+
+.storedBookInfo .info input, label{
+  display: inline;
+  margin: 10px 0px 10px 10px;
+}
+
+.storedBookInfo .info input{
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 14px;
+}
+
+#firstLabel{
+  margin-right: 20px;
+}
+
+#secondLabel {
+  margin-right: 5px;
+}
+
+#thirdLabel {
+  margin-right: 5px;
+}
+
+.deleteBtn{
+  width: 100%;
+  background: #FF0505;
+  color: #fff;
+  outline: none;
+  border: 2px solid red;
+  padding: 10px 12px;
+}
